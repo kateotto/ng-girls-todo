@@ -1,0 +1,15 @@
+.todo-input{
+    padding: 4px 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Verdana', sans-serif;
+    line-height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex-grow: 1;
+    outline: transparent;
+}
+:host(:not([hidden])){
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
